@@ -2,6 +2,8 @@
 
 An attempt of dumping the async exectuion tree of a Rust program only using debuginfo. The results aren't 100% accurate.
 
+By the way, it's not actually a tree, it's a DAG.
+
 ## Usage
 
 install [pyvis](https://pyvis.readthedocs.io/en/latest/install.html) and [ddbug](https://github.com/gimli-rs/ddbug) and start from `draw.ipynb`.
